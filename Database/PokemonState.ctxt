@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=PokemonState
+comment1.params=stateId\ stateName
+comment1.target=PokemonState(int,\ java.lang.String)
+numComments=2

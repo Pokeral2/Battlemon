@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DamageCalculator
+comment1.params=condition\ type\ defendingPokemon
+comment1.target=double\ Weather(Database.WeatherCondition,\ Database.MoveType,\ PokemonUnderBattle)
+comment2.params=terrain\ type\ attackingPokemon
+comment2.target=double\ Terrain(Database.terrainInBattle,\ Database.MoveType,\ PokemonUnderBattle)
+comment3.params=moveType\ attackingPokemon
+comment3.target=double\ STAB(Database.MoveType,\ PokemonUnderBattle)
+comment4.params=
+comment4.target=double\ random()
+comment5.params=battle
+comment5.target=double\ damage(BattleMon.Battle)
+numComments=6

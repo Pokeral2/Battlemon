@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=PokemonUnderBattle
+comment1.params=p\ level\ uniqueId
+comment1.target=PokemonUnderBattle(Database.Pokemon,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ printMoves()
+comment3.params=
+comment3.target=void\ printStats()
+comment4.params=state
+comment4.target=void\ changeState(Database.PokemonState)
+numComments=5

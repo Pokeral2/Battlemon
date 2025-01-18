@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=MoveType
+comment1.params=typeId\ typeName
+comment1.target=MoveType(int,\ java.lang.String)
+numComments=2

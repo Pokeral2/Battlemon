@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=terrainInBattle
+comment1.params=terrainId\ terrainName
+comment1.target=terrainInBattle(int,\ java.lang.String)
+numComments=2

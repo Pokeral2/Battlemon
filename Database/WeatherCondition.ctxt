@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=WeatherCondition
+comment1.params=weatherId\ weatherName
+comment1.target=WeatherCondition(int,\ java.lang.String)
+numComments=2

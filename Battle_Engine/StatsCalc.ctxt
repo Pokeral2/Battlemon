@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StatsCalc
+comment1.params=hp\ LEVEL
+comment1.target=int\ calc_hp(int,\ int)
+comment2.params=stat\ LEVEL
+comment2.target=int\ calc(int,\ int)
+numComments=3

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=SelectionEngine
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ loadDatabase()
+comment3.params=
+comment3.target=int\ getPokemonChoice()
+comment4.params=
+comment4.target=Battle_Engine.PokemonUnderBattle\ chooseManually()
+comment5.params=
+comment5.target=Battle_Engine.PokemonUnderBattle\ chooseAutomaticallly()
+comment6.params=pokemon\ level
+comment6.target=java.util.List\ selectMoves(Database.Pokemon,\ int)
+comment7.params=pokemonName
+comment7.target=java.lang.String\ getUniqueKey(java.lang.String)
+numComments=8

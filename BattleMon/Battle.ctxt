@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Battle
+comment1.params=userPokemons\ computerPokemons
+comment1.target=Battle(java.util.List,\ java.util.List)
+comment10.params=
+comment10.target=void\ computerPokemonFainted()
+comment2.params=pokemons
+comment2.target=PokemonUnderBattle\ switchPokemonManually(java.util.List)
+comment3.params=pokemons
+comment3.target=PokemonUnderBattle\ switchPokemonAtumatically(java.util.List)
+comment4.params=pokemons
+comment4.target=void\ printPokemons(java.util.List)
+comment5.params=
+comment5.target=void\ commenceBattle()
+comment6.params=
+comment6.target=Database.Move\ userTurn()
+comment7.params=
+comment7.target=Database.Move\ computerTurn()
+comment8.params=attack\ defender\ attacker
+comment8.target=void\ performAttack(Database.Move,\ PokemonUnderBattle,\ PokemonUnderBattle)
+comment9.params=
+comment9.target=void\ userPokemonFainted()
+numComments=11

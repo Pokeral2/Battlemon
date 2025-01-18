@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PokemonType
+comment1.params=typeNumber\ typeName
+comment1.target=PokemonType(int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getTypeName()
+comment3.params=
+comment3.target=int\ getTypeNumber()
+comment4.params=type1\ type2\ moveType
+comment4.target=double\ typeEffectiveness(PokemonType,\ PokemonType,\ MoveType)
+comment4.text=\ public\ int\ getTypeNumber()\ {\r\n\ \ \ \ return\ typeNumber;\r\n}
+numComments=5
