@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ApplySpecialEffect
+comment1.params=move\ attacker\ defender\ battle
+comment1.target=void\ applySpecialEffect(Database.Move,\ PokemonUnderBattle,\ PokemonUnderBattle,\ BattleMon.Battle)
+numComments=2

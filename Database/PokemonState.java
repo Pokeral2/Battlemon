@@ -8,10 +8,8 @@ public class PokemonState {
     public static PokemonState PARALYZED = new PokemonState(4, "Paralyzed");
     public static PokemonState POISONED = new PokemonState(5, "Poisoned");
     public static PokemonState SLEEP = new PokemonState(6, "Sleep");
-    public static PokemonState CONFUSION = new PokemonState(7, "Confusion");
-    public static PokemonState FAINT = new PokemonState(8, "Faint");
-    
-    public int stateId;
+        public static PokemonState FAINT = new PokemonState(8, "Faint");
+        public int stateId;
     public String stateName;
     
     public PokemonState(int stateId , String stateName){

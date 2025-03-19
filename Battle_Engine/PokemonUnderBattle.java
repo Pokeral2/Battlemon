@@ -9,7 +9,8 @@ import java.util.*;
 import Database.MaxMove;
 
 public class PokemonUnderBattle
-{   public List<MaxMove> move;
+{  public Map<String,Integer> effects=new HashMap<>(); 
+     public List<MaxMove> move;
     public int accuracy;
     public int evasiveness;
     public int attack;
@@ -23,9 +24,19 @@ public class PokemonUnderBattle
     public PokemonType type1;
     public PokemonType type2;
     public PokemonState currentState;
+    public boolean canFlee=true;
+    public boolean isConfused=false;
+    public boolean isInfested=false;
     public List<Move> moves;
     public String uniqueId;
     public String name;
+    public Pokemon baseMon; 
+    public int levelHp;
+    public int levelAttack;
+    public int levelDefense;
+    public int levelSpecialAttack;
+    public int levelSpecialDefense;
+    public int levelSpeed;
     public PokemonUnderBattle(Pokemon p,int level,String uniqueId)
     {
         this.level=level;
@@ -42,6 +53,8 @@ public class PokemonUnderBattle
         name=p.name;
         type1=p.type1;
         type2=p.type2;
+        canFlee=true;
+        baseMon=p;
     }
     
     public void printMoves(){

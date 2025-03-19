@@ -56,23 +56,27 @@ public class DamageCalculator {
     }
 
     private double STAB(MoveType moveType, PokemonUnderBattle attackingPokemon) {
-        if (attackingPokemon.type1.getTypeName() == moveType.typeName || attackingPokemon.type2.getTypeName() == moveType.typeName) {
+        if (attackingPokemon.type1.getTypeName() == moveType.typeName
+                || attackingPokemon.type2.getTypeName() == moveType.typeName) {
             return 1.5;
         } else {
             return 1;
         }
     }
 
-    private static double random()
-    { Random random= new Random();
-        double rand= random.nextDouble()*0.15+0.85;
+    private static double random() {
+        Random random = new Random();
+        double rand = random.nextDouble() * 0.15 + 0.85;
         return rand;
     }
 
-    public static double  damage(Battle battle)
-    {
-        //double damage= (((((2*level/5)+2)*power*attack/defense)/50)+2)*1*1*weather*1*critical*random*stab*type*status*zMove;
+    // private static double critical() {
+        
+    // }
+
+    public static double damage(Battle battle) {
+        // double damage=
+        // (((((2*level/5)+2)*power*attack/defense)/50)+2)*1*1*weather*1*critical*random*stab*type*status*zMove;
         return 50;
     }
 }
-

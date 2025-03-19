@@ -74,9 +74,16 @@ public class SelectionEngine {
 
     private static PokemonUnderBattle chooseManually() {
         System.out.println("Enter the ID of Pokémon: ");
-        int pokemonId = sc.nextInt();
-        int userLevel = (int) (Math.random() * 100) + 1; // Generate random level between 1 and 100
+        int userLevel = 0, pokemonId = sc.nextInt();
 
+        if (settings.currentGameMode == 2)
+            userLevel = (int) (Math.random() * 100) + 1; // Generate random level between 1 and 100
+        else if (settings.currentGameMode == 1)
+            userLevel = 50;
+        else if (settings.currentGameMode == 3) {
+            System.out.println("Enter the level of Pokémon: ");
+            userLevel = sc.nextInt();
+        } 
         Pokemon userPokemon = Pokemon.get_by_name.get(pokemonId);
         if (userPokemon != null) {
             PokemonUnderBattle userPokemonUnderBattle = new PokemonUnderBattle(userPokemon, userLevel,
@@ -105,10 +112,10 @@ public class SelectionEngine {
 
         // Ensure only up to 4 moves are stored
         List<Move> limitedMoves = allocatedMoves.stream().limit(4).collect(Collectors.toList());
-        for(Move move : limitedMoves){
+        for (Move move : limitedMoves) {
             System.out.println(move.name);
             Move copiedMove = Move.copyMove(move);
-                }
+        }
         return limitedMoves;
     }
 

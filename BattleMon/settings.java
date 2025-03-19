@@ -10,6 +10,6 @@ public class settings
     public static boolean areMythicalPokemonsAllowed=false;
     public static boolean areZMovesAllowed=false;
     public static boolean areDynamaxAllowed=false;
-    public static boolean areGigantamaxAllowed=false;
-        
+    public static boolean areGigantamaxAllowed=false;   
+    public static byte currentPlayerMode=1;
 }

@@ -18,7 +18,7 @@ public class StartGame {
     private static void chooseGameMode() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Choose Game Mode:");
-        System.out.println("1. Normal Mode");
+        System.out.println("1. Normal Mode (All pokemon at level 50)");
         System.out.println("2. Custom Mode");
         System.out.println("3. Actual Mode");
         System.out.print("Enter your choice  : ");
